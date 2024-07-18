@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pente Game</title>
+    <link rel="stylesheet" href="pente.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cyberpunk Pente</h1>
+        <div class="game-info">
+            <div>
+                <label for="player1-color">Player 1 Color:</label>
+                <input type="color" id="player1-color" value="#ff0066">
+            </div>
+            <div>
+                <label for="player2-color">Player 2 Color:</label>
+                <input type="color" id="player2-color" value="#00ccff">
+            </div>
+        </div>
+        <div id="game-board"></div>
+        <div id="status">Player 1's turn</div>
+        <button id="restart-btn">Restart Game</button>
+        <div id="capture-info">
+            <div id="player1-captures">Player 1 Captures: 0</div>
+            <div id="player2-captures">Player 2 Captures: 0</div>
+        </div>
+    </div>
+    <script src="pentecyber.js"></script>
+</body>
+</html>
